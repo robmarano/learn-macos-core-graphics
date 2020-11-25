@@ -7,6 +7,8 @@
 
 #import <Cocoa/Cocoa.h>
 
+#define WINDOWS_TITLE @"Mandala by Bussola"
+
 @interface ViewController : NSViewController
 
 

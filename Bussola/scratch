@@ -1,0 +1,45 @@
+
+    
+    double sides = 8;
+    double angleDeg = 360 / sides;
+    
+    double x = CENTER_X + radius * cos(radians(angleDeg));
+    double y = CENTER_Y + radius * sin(radians(angleDeg));
+    NSLog(@"(x,y) = (%f, %f)",x, y);
+    CGContextSaveGState(context);
+    cd_drawCircleByArc(context, CGPointMake(x, y), radius);
+    CGContextSetStrokeColorWithColor(context, white.CGColor);
+    CGContextSetLineWidth(context, 1);
+    CGContextDrawPath(context, kCGPathStroke);
+    CGContextRestoreGState(context);
+
+    x = CENTER_X - radius * cos(radians(angleDeg));
+    y = CENTER_Y + radius * sin(radians(angleDeg));
+    NSLog(@"(x,y) = (%f, %f)",x, y);
+    CGContextSaveGState(context);
+    cd_drawCircleByArc(context, CGPointMake(x, y), radius);
+    CGContextSetStrokeColorWithColor(context, white.CGColor);
+    CGContextSetLineWidth(context, 1);
+    CGContextDrawPath(context, kCGPathStroke);
+    CGContextRestoreGState(context);
+
+    x = CENTER_X - radius * cos(radians(angleDeg));
+    y = CENTER_Y - radius * sin(radians(angleDeg));
+    NSLog(@"(x,y) = (%f, %f)",x, y);
+    CGContextSaveGState(context);
+    cd_drawCircleByArc(context, CGPointMake(x, y), radius);
+    CGContextSetStrokeColorWithColor(context, white.CGColor);
+    CGContextSetLineWidth(context, 1);
+    CGContextDrawPath(context, kCGPathStroke);
+    CGContextRestoreGState(context);
+
+    x = CENTER_X + radius * cos(radians(angleDeg));
+    y = CENTER_Y - radius * sin(radians(angleDeg));
+    NSLog(@"(x,y) = (%f, %f)",x, y);
+    CGContextSaveGState(context);
+    cd_drawCircleByArc(context, CGPointMake(x, y), radius);
+    CGContextSetStrokeColorWithColor(context, white.CGColor);
+    CGContextSetLineWidth(context, 1);
+    CGContextDrawPath(context, kCGPathStroke);
+    CGContextRestoreGState(context);
+    

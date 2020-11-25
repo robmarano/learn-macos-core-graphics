@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B014EDC5256E2926002FC310 /* CGPathsView.m in Sources */ = {isa = PBXBuildFile; fileRef = B014EDC4256E2926002FC310 /* CGPathsView.m */; };
+		B014EDCA256E3EB9002FC310 /* scratch in Resources */ = {isa = PBXBuildFile; fileRef = B014EDC9256E3EB9002FC310 /* scratch */; };
 		B0BE17A4256E1F84009571B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BE17A3256E1F84009571B8 /* AppDelegate.m */; };
 		B0BE17A7256E1F84009571B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BE17A6256E1F84009571B8 /* ViewController.m */; };
 		B0BE17A9256E1F87009571B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0BE17A8256E1F87009571B8 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* Begin PBXFileReference section */
 		B014EDC3256E2926002FC310 /* CGPathsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGPathsView.h; sourceTree = "<group>"; };
 		B014EDC4256E2926002FC310 /* CGPathsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGPathsView.m; sourceTree = "<group>"; };
+		B014EDC9256E3EB9002FC310 /* scratch */ = {isa = PBXFileReference; lastKnownFileType = text; path = scratch; sourceTree = "<group>"; };
 		B0BE179F256E1F84009571B8 /* Bussola.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bussola.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BE17A2256E1F84009571B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B0BE17A3256E1F84009571B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				B0BE17B0256E1F87009571B8 /* Bussola.entitlements */,
 				B014EDC3256E2926002FC310 /* CGPathsView.h */,
 				B014EDC4256E2926002FC310 /* CGPathsView.m */,
+				B014EDC9256E3EB9002FC310 /* scratch */,
 			);
 			path = Bussola;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B014EDCA256E3EB9002FC310 /* scratch in Resources */,
 				B0BE17A9256E1F87009571B8 /* Assets.xcassets in Resources */,
 				B0BE17AC256E1F87009571B8 /* Main.storyboard in Resources */,
 			);

@@ -15,6 +15,11 @@
     // Do any additional setup after loading the view.
 }
 
+- (void)viewDidAppear {
+    [super viewDidAppear];
+    [[self view] window].title = WINDOWS_TITLE;
+}
+
 
 - (void)setRepresentedObject:(id)representedObject {
     [super setRepresentedObject:representedObject];
